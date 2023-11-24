@@ -1,4 +1,4 @@
-﻿namespace RestauranManagementSystem.Data
+﻿namespace RestaurantManagementSystem.Data
 {
     public class Class1
     {

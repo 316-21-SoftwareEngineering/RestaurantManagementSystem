@@ -7,7 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestaurantManagementSystem.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{00751C65-4CE7-43CA-A910-AD94010516AA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestauranManagementSystem.Data", "RestauranManagementSystem.Data\RestauranManagementSystem.Data.csproj", "{376A06A1-1547-48BB-88B6-BD2A4247523D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestaurantManagementSystem.Data", "RestauranManagementSystem.Data\RestaurantManagementSystem.Data.csproj", "{376A06A1-1547-48BB-88B6-BD2A4247523D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantManagementSystem.Domain", "RestaurantManagementSystem.Domain\RestaurantManagementSystem.Domain.csproj", "{FC7391F7-E74D-48ED-B492-94B88D1FCC06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantManagementSystem.Service", "RestaurantManagementSystem.Service\RestaurantManagementSystem.Service.csproj", "{CC08C583-AD01-4434-B6F6-F800182F09D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +27,14 @@ Global
 		{376A06A1-1547-48BB-88B6-BD2A4247523D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{376A06A1-1547-48BB-88B6-BD2A4247523D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{376A06A1-1547-48BB-88B6-BD2A4247523D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC7391F7-E74D-48ED-B492-94B88D1FCC06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC7391F7-E74D-48ED-B492-94B88D1FCC06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC7391F7-E74D-48ED-B492-94B88D1FCC06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC7391F7-E74D-48ED-B492-94B88D1FCC06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC08C583-AD01-4434-B6F6-F800182F09D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC08C583-AD01-4434-B6F6-F800182F09D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC08C583-AD01-4434-B6F6-F800182F09D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC08C583-AD01-4434-B6F6-F800182F09D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +42,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{8C9AD61D-B796-4A24-9F70-94E42C9B6BD4} = {00751C65-4CE7-43CA-A910-AD94010516AA}
 		{376A06A1-1547-48BB-88B6-BD2A4247523D} = {00751C65-4CE7-43CA-A910-AD94010516AA}
+		{FC7391F7-E74D-48ED-B492-94B88D1FCC06} = {00751C65-4CE7-43CA-A910-AD94010516AA}
+		{CC08C583-AD01-4434-B6F6-F800182F09D7} = {00751C65-4CE7-43CA-A910-AD94010516AA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {94A4D944-050F-418E-AB03-7DFE5E4863AD}
