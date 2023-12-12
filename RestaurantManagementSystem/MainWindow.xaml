@@ -7,6 +7,18 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Rectangle x:Name="Logo"
+                       Fill="Aqua"
+                       TextElement.FontFamily="Calibri" Width="200" Margin="0,0,200,402"/>
+        <TextBlock Text="LOGO" 
+                   Foreground="White" 
+                   FontSize="16" 
+                   FontWeight="Bold"
+                   HorizontalAlignment="Left" 
+                   VerticalAlignment="Top" Margin="79,2,0,0"/>
     </Grid>
 </Window>

@@ -1,6 +1,6 @@
 ﻿namespace RestaurantManagementSystem.Data
 {
-    public class Class1
+    public class RestaurantDbContext
     {
         //salom
     }
